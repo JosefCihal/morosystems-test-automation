@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Backend under test (cloned automatically on the first test run)
+.backend/
+
+# Playwright output
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.state/
+
+# Local configuration
+.env
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/

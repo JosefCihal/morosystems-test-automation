@@ -1,0 +1,13 @@
+/* Applied only while taking screenshots for visual comparison (toHaveScreenshot). */
+
+/* Sticky header may overlap the captured element depending on scroll position. */
+header.header {
+  visibility: hidden !important;
+}
+
+/* Cookie consent banner and the floating "cookie settings" badge (CookieScript). */
+#cookiescript_injected,
+#cookiescript_injected_wrapper,
+#cookiescript_badge {
+  display: none !important;
+}
